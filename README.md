@@ -57,3 +57,24 @@ Complete all the exercises in this assignment and push your code to GitHub using
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [MongoDB University](https://university.mongodb.com/)
 - [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+
+# Week 1 - MongoDB: Data Layer Fundamentals & Advanced Techniques
+
+## Files
+- `insert_books.js` — Node script to insert sample book documents.
+- `queries.js` — mongosh script with CRUD, advanced queries, aggregation pipelines, and indexing + explain().
+<!-- - `screenshot.png` — screenshot of the `books` collection (add this file). -->
+
+## Setup
+1. Install Node.js and `npm install mongodb`.
+2. Install `mongosh`.
+3. Run MongoDB locally.
+
+## Run
+- Insert sample data:
+```bash
+# Local
+node insert_books.js
+
+
+
